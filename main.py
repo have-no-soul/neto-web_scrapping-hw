@@ -52,10 +52,5 @@ def search_posts_by_tags():
                 print(f'Дата: {article_date} -- Заголовок: {article_title} -- Ссылка: {full_article_link}')
 
 
-            # if (search_word in article_title.lower()) or (search_word in article_preview_text.lower()) \
-            #         or (search_word in article_tags):
-            #   print(f'Дата: {article_date} -- Заголовок: {article_title} -- Ссылка: {full_article_link}')
-
-
 if __name__ == "__main__":
     search_posts_by_tags()
